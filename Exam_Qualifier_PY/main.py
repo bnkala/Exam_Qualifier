@@ -30,46 +30,45 @@ def are_presentation_written(course_type):
     return input("Did you do any presentations this {} (y/n): ".format(course_type))
 
 def num_tests():
-    num_test = int(input("How many tests have you written?: "))
+    num_test = input("How many tests have you written?: ")
     if not validation.is_num_valid(num_test):
         print("Invalid input for number of tests")
-        num_test = int(input("How many tests have you written?: "))
-    #return int(input("How many tests have you written?: "))
-    return num_test
+        num_test = input("How many tests have you written?: ")
+    return int(num_test)
 
 def num_projects():
-    num_projects = int(input("How many projects have you done?: "))
+    num_projects = input("How many projects have you done?: ")
     while not validation.is_num_valid(num_projects):
         print("Invalid input for number of project(s)")
-        num_projects = int(input("How many projects have you done?: "))
+        num_projects = input("How many projects have you done?: ")
     #return int(input("How many projects have you done?: "))
-    return num_projects
+    return int(num_projects)
 
 def num_presentations():
-    num_presentations = int(input("How many presentations have you done?: "))
+    num_presentations = input("How many presentations have you done?: ")
     while not validation.is_num_valid(num_presentations):
         print("Invalid input for number of presentation(s)")
-        num_presentations = int(input("How many presentations have you?: "))
+        num_presentations = input("How many presentations have you?: ")
     #return int(input("How many presentations have you done?: "))
-    return num_presentations
+    return int(num_presentations)
 
 
 
 def get_tests_list(test_count):
     test_list = []
-    for x in range(test_count):
+    for x in range(1, test_count+1):
         test_list.append(int(input("Enter mark (out of 100) for your test {}:".format(x) )))
     return test_list
 
 def get_projects_list(project_count):
     project_list = []
-    for x in range(project_count):
+    for x in range(1, project_count+1):
         project_list.append(int(input("Enter mark (out of 100) for your project {}:".format(x))))
     return project_list
 
 def get_presentations_list(presentation_count):
     presentation_list = []
-    for z in range(presentation_count):
+    for z in range(1, presentation_count+1):
         presentation_list.append(int(input("Enter mark (out of 100) for your presentation {}".format(z))))
     return presentation_list
 

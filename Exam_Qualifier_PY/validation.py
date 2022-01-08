@@ -4,6 +4,6 @@ def is_input_valid(question):
     return True 
 
 def is_num_valid(num):
-    if not type(num) == int:
+    if not num.isdigit():
         return False
     return True
