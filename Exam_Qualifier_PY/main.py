@@ -1,5 +1,5 @@
 import validation
-
+import test
 
 def get_name():
     return input("Enter first name(s): ")
@@ -41,7 +41,6 @@ def num_projects():
     while not validation.is_num_valid(num_projects):
         print("Invalid input for number of project(s)")
         num_projects = input("How many projects have you done?: ")
-    #return int(input("How many projects have you done?: "))
     return int(num_projects)
 
 def num_presentations():
@@ -49,9 +48,7 @@ def num_presentations():
     while not validation.is_num_valid(num_presentations):
         print("Invalid input for number of presentation(s)")
         num_presentations = input("How many presentations have you?: ")
-    #return int(input("How many presentations have you done?: "))
     return int(num_presentations)
-
 
 
 def get_tests_list(test_count):
@@ -99,7 +96,8 @@ def calc_average_presentation(presentation_list):
     avg_presentation = presentation_total / len(presentation_list)
     return avg_presentation
 
-def tests(tot_mark, count, test_question, test_count, test_list, avg_test):
+
+def tests(tot_mark, count, test_question, test_count, test_list, avg_test, course_type):
     #test_question = are_tests_written(course_type)
     while not validation.is_input_valid(test_question):
         print("Invalid input for test question!")
@@ -138,8 +136,8 @@ if __name__ == "__main__":
     qualification = get_qualification()
     module = get_module_name()
 
-    test_question = are_tests_written(course_type)
-    tests(tot_mark, count, test_question, test_count, test_list, avg_test)
+    test_question = test.are_tests_written(course_type)
+    tests(tot_mark, count, test_question, test_count, test_list, avg_test, course_type)
     '''
     test_question = are_tests_written(course_type)
     if not validation.is_input_valid(test_question):
@@ -172,7 +170,7 @@ if __name__ == "__main__":
         print("Invalid input for presentation question!")
         presentation_question = are_presentation_written(course_type)
 
-    if presentation_question == "y" or presentation_question == "yes":
+    if presentation_question not in ["y", "Y".lower(), "yes", "Yes".lower()]:
         presentation_count = num_presentations()
         presentation_list = get_presentations_list(presentation_count)
         avg_presentation = calc_average_presentation(presentation_list)
