@@ -1,8 +1,13 @@
 
 from itertools import count
-import test
+import Exam_Qualifier_PY.test
+import Exam_Qualifier_PY.project
+import Exam_Qualifier_PY.presentation
 
-'''
+
+"""
+Info
+"""
 def get_name():
     return input("Enter name: ")
 
@@ -13,11 +18,13 @@ def get_institution():
     return input("Enter institution you studying at: ")
 
 def get_qualification():
-    return input("Enter qualification you studying for: ")'''
+    return input("Enter qualification you studying for: ")
+
 
 """
 Test score(s)
 """
+'''
 def get_test_validation():
     return input("Have you written tests this semester(y/n)? ")
 
@@ -42,10 +49,12 @@ def get_total_test(test_validation):
         return tot_test
     
     return tot_test
+'''
 
 """
 Project score(s)
 """
+'''
 def get_project_validation():
     return input("Have you worked on projects this semester(y/n)? ")
 
@@ -70,7 +79,7 @@ def get_total_project(validation):
         return tot_project
     
     return tot_project
-
+'''
 """
 Presentation Score(s)
 """
@@ -113,15 +122,14 @@ def display():
     tot_count = 0
     avg_dp = 0
     #print("Total test score out of 100: {}".format(get_total_test(validation)))
-
-    test_validation = get_test_validation()
+    test_validation = Exam_Qualifier_PY.test.get_test_validation()
     if test_validation in ["y","Y"]:
-        tot_dp += get_total_test(test_validation)
+        tot_dp += Exam_Qualifier_PY.test.get_total_test(test_validation)
         tot_count += 1
 
-    project_validation = get_project_validation()
+    project_validation = Exam_Qualifier_PY.project.get_project_validation()
     if project_validation in ["y","Y"]:
-        tot_dp += get_total_project(project_validation)
+        tot_dp += Exam_Qualifier_PY.project.get_total_project(project_validation)
         tot_count += 1
 
     presentation_validation = get_presentation_validation()
