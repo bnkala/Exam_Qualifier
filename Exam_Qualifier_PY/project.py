@@ -1,5 +1,9 @@
+import valid_input 
 def get_project_validation(course):
-    return input("Have you worked on projects this {}(y/n)? ".format(course))
+    project = input("Have you worked on projects this {}(y/n)? ".format(course))
+    while valid_input.validate_input(project) == False:
+        project = input("Have you worked on projects this {}(y/n)? ".format(course))
+    return project
 
 def count_project():
     return int(input("How many projects have you worked on? "))

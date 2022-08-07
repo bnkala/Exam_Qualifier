@@ -1,5 +1,10 @@
+import valid_input
+
 def get_presentation_validation(course):
-    return input("Have you done any presentations this {}(y/n)? ".format(course))
+    presentation = input("Have you done any presentations this {}(y/n)? ".format(course))
+    while valid_input.validate_input(presentation) == False:
+        presentation = input("Have you done any presentations this {}(y/n)? ".format(course))
+    return presentation
 
 def count_presentation():
     return int(input("How many presentations have you done? "))

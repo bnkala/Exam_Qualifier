@@ -1,11 +1,16 @@
+import valid_input
 def get_test_validation(course):
-    return input("Have you written tests this {}(y/n)? ".format(course))
+    
+    test = input("Have you written tests this {}(y/n)? ".format(course))
+    while valid_input.validate_input(test) == False:
+       test = input("Have you written tests this {}(y/n)? ".format(course)) 
+    return test
 
 def count_test():
     return int(input("How many tests did you write? "))
 
 def test_score(count):
-    return int(input("Enter score (%) for test {}: ".format(count+1)))
+    return int(input("Enter your mark (%) for test {}: ".format(count+1)))
 
 def get_total_test(test_validation):
     test_count = 0
@@ -22,3 +27,4 @@ def get_total_test(test_validation):
         return tot_test
     
     return tot_test
+
