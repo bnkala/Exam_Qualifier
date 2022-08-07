@@ -1,5 +1,5 @@
-def get_presentation_validation():
-    return input("Have you done any presentations this semester(y/n)? ")
+def get_presentation_validation(course):
+    return input("Have you done any presentations this {}(y/n)? ".format(course))
 
 def count_presentation():
     return int(input("How many presentations have you done? "))

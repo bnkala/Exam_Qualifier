@@ -1,5 +1,5 @@
-def get_project_validation():
-    return input("Have you worked on projects this semester(y/n)? ")
+def get_project_validation(course):
+    return input("Have you worked on projects this {}(y/n)? ".format(course))
 
 def count_project():
     return int(input("How many projects have you worked on? "))

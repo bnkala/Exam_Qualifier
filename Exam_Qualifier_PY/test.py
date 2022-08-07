@@ -1,5 +1,5 @@
-def get_test_validation():
-    return input("Have you written tests this semester(y/n)? ")
+def get_test_validation(course):
+    return input("Have you written tests this {}(y/n)? ".format(course))
 
 def count_test():
     return int(input("How many tests did you write? "))
