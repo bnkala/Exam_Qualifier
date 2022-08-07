@@ -1,4 +1,3 @@
-
 def get_test_validation():
     return input("Have you written tests this semester(y/n)? ")
 
