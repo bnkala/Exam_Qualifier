@@ -76,6 +76,7 @@ def display():
     while Exam.validate_exam(exam) == False:
         exam = Exam.get_exam()
     
+    exam = int(exam)
 
     final_mark = get_final_mark(avg_dp, exam)
     status = get_status(final_mark)
