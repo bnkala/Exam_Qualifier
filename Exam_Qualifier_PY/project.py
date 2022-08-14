@@ -1,4 +1,4 @@
-import valid_input 
+import valid_input as valid_input 
 def get_project_validation(course):
     project = input("Have you worked on projects this {}(y/n)? ".format(course))
     while valid_input.validate_input(project) == False:

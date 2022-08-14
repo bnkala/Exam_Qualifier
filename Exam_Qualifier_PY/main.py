@@ -1,10 +1,11 @@
 
 from itertools import count
-import test
-import project
+import test as test
+import project as project
 import presentation
 import exam as Exam
-import personal_info
+import personal_info as personal_info
+import valid_input as valid_input
 
 
 def get_final_mark(dp_mark, exam):
@@ -34,6 +35,8 @@ def display():
     
     
     test_validation = test.get_test_validation(course_type)
+    while(valid_input.validate_input(test_validation) == False):
+        test_validation = test.get_test_validation(course_type)
     if test_validation in ["y","Y"]:
         tot_dp += test.get_total_test(test_validation)
         tot_count += 1

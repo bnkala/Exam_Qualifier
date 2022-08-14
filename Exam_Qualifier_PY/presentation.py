@@ -1,4 +1,4 @@
-import valid_input
+import valid_input as valid_input
 
 def get_presentation_validation(course):
     presentation = input("Have you done any presentations this {}(y/n)? ".format(course))
@@ -10,7 +10,7 @@ def count_presentation():
     return int(input("How many presentations have you done? "))
 
 def presentation_score(count):
-    return int(input("Enter score (%) for presentation {}:".format(count+1)))
+    return int(input("Enter score (sqli%) for presentation {}:".format(count+1)))
 
 def get_total_presentation(validation):
     presentation_count = 0

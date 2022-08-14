@@ -1,10 +1,10 @@
-import valid_input
+
 def get_test_validation(course):
-    
-    test = input("Have you written tests this {}(y/n)? ".format(course))
+    return input("Have you written tests this {}(y/n)? ".format(course))
+    '''test = input("Have you written tests this {}(y/n)? ".format(course))
     while valid_input.validate_input(test) == False:
        test = input("Have you written tests this {}(y/n)? ".format(course)) 
-    return test
+    return test'''
 
 def count_test():
     return int(input("How many tests did you write? "))
