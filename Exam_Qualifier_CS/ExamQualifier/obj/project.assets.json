@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\STUDENT\\Desktop\\Personal Projects\\Exam_Qualifier\\ExamQualifier\\ExamQualifier.csproj",
+      "projectUniqueName": "C:\\Users\\STUDENT\\Desktop\\Personal Projects\\Exam_Qualifier\\Exam_Qualifier_CS\\ExamQualifier\\ExamQualifier.csproj",
       "projectName": "ExamQualifier",
-      "projectPath": "C:\\Users\\STUDENT\\Desktop\\Personal Projects\\Exam_Qualifier\\ExamQualifier\\ExamQualifier.csproj",
+      "projectPath": "C:\\Users\\STUDENT\\Desktop\\Personal Projects\\Exam_Qualifier\\Exam_Qualifier_CS\\ExamQualifier\\ExamQualifier.csproj",
       "packagesPath": "C:\\Users\\STUDENT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\STUDENT\\Desktop\\Personal Projects\\Exam_Qualifier\\ExamQualifier\\obj\\",
+      "outputPath": "C:\\Users\\STUDENT\\Desktop\\Personal Projects\\Exam_Qualifier\\Exam_Qualifier_CS\\ExamQualifier\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\STUDENT\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,15 @@
+C:\Users\STUDENT\Desktop\Personal Projects\Exam_Qualifier\Exam_Qualifier_CS\ExamQualifier\bin\Debug\net6.0\ExamQualifier.exe
+C:\Users\STUDENT\Desktop\Personal Projects\Exam_Qualifier\Exam_Qualifier_CS\ExamQualifier\bin\Debug\net6.0\ExamQualifier.deps.json
+C:\Users\STUDENT\Desktop\Personal Projects\Exam_Qualifier\Exam_Qualifier_CS\ExamQualifier\bin\Debug\net6.0\ExamQualifier.runtimeconfig.json
+C:\Users\STUDENT\Desktop\Personal Projects\Exam_Qualifier\Exam_Qualifier_CS\ExamQualifier\bin\Debug\net6.0\ExamQualifier.dll
+C:\Users\STUDENT\Desktop\Personal Projects\Exam_Qualifier\Exam_Qualifier_CS\ExamQualifier\bin\Debug\net6.0\ExamQualifier.pdb
+C:\Users\STUDENT\Desktop\Personal Projects\Exam_Qualifier\Exam_Qualifier_CS\ExamQualifier\obj\Debug\net6.0\ExamQualifier.csproj.AssemblyReference.cache
+C:\Users\STUDENT\Desktop\Personal Projects\Exam_Qualifier\Exam_Qualifier_CS\ExamQualifier\obj\Debug\net6.0\ExamQualifier.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\STUDENT\Desktop\Personal Projects\Exam_Qualifier\Exam_Qualifier_CS\ExamQualifier\obj\Debug\net6.0\ExamQualifier.AssemblyInfoInputs.cache
+C:\Users\STUDENT\Desktop\Personal Projects\Exam_Qualifier\Exam_Qualifier_CS\ExamQualifier\obj\Debug\net6.0\ExamQualifier.AssemblyInfo.cs
+C:\Users\STUDENT\Desktop\Personal Projects\Exam_Qualifier\Exam_Qualifier_CS\ExamQualifier\obj\Debug\net6.0\ExamQualifier.csproj.CoreCompileInputs.cache
+C:\Users\STUDENT\Desktop\Personal Projects\Exam_Qualifier\Exam_Qualifier_CS\ExamQualifier\obj\Debug\net6.0\ExamQualifier.dll
+C:\Users\STUDENT\Desktop\Personal Projects\Exam_Qualifier\Exam_Qualifier_CS\ExamQualifier\obj\Debug\net6.0\refint\ExamQualifier.dll
+C:\Users\STUDENT\Desktop\Personal Projects\Exam_Qualifier\Exam_Qualifier_CS\ExamQualifier\obj\Debug\net6.0\ExamQualifier.pdb
+C:\Users\STUDENT\Desktop\Personal Projects\Exam_Qualifier\Exam_Qualifier_CS\ExamQualifier\obj\Debug\net6.0\ExamQualifier.genruntimeconfig.cache
+C:\Users\STUDENT\Desktop\Personal Projects\Exam_Qualifier\Exam_Qualifier_CS\ExamQualifier\obj\Debug\net6.0\ref\ExamQualifier.dll
